@@ -1,0 +1,32 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresAttribute:autor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresAttribute:cantidadDeReservas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: autor
+  inspection: TypesAs:String
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cantidadDeReservas
+  inspection: TypesAs:int
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: titulo
+  inspection: TypesAs:String
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresAttribute:titulo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:getAutor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:getTitulo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:getCantidadDeReservas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:setCantidadDeReservas

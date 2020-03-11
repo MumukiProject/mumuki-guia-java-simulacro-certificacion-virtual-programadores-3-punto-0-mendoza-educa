@@ -1,0 +1,4 @@
+<img src="http://www.plantuml.com/plantuml/png/TP0zRiGW44PxJZ6YOZTsaTQAeirFwIh91LYCh94mHCnucoXtZo06OSdRyirxp7mNOXrvNPmOyHg3F4iuzpt8HmclU7KOs1ezW3J1CrflfH36QQ8cXHy1q8DBF0qm8l5JbZt_lmUZ7Kvw6k2J8_fP03oqkAeJK4QwpGOxtIcJi-Mn0EfK4QXX9bFIiZcbae8ws3OHju1J7dMuVAEE7vPil6bIDVmj1MHekvsHLnUQ0tlGAuUuUp7QSrhwtHRh0EWvVRV9rDxJxINTFKFjvIlZJIabU4cUW_UtAcmFhLlHuSIzBThwefsHEDO2s_ukra_hulu0" alt="" width="auto" height="auto">
+
+> Definí el método `registrarReserva` en la clase `Libro` que suma una reserva a dicho libro.
+> También definí `limpiarReservas`, el cual pone en 0 las reservas de todos los libros de una `Biblioteca`.

@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:registrarReserva
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:limpiarReservas

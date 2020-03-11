@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:cantidadDeLibrosDificiles
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Divulgacion
+  inspection: DeclaresMethod:esDificilDeLeer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Novela
+  inspection: DeclaresMethod:esDificilDeLeer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: LibroDeCuentos
+  inspection: DeclaresMethod:esDificilDeLeer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Except:DoesTypeTest
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresTypeSignature:esDificilDeLeer

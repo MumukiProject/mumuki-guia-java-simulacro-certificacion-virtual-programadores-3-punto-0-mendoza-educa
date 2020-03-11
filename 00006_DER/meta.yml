@@ -1,0 +1,32 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Entre las tablas bibliotecas y libros existe una relación 1 a 1
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Entre las tablas bibliotecas y libros existe una relación 1 a N
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Entre las tablas bibliotecas y libros existe una relación N a N
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La clave primaria de la tabla libros es id_biblioteca
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La clave primaria de la tabla bibliotecas es id_biblioteca
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla libros no tiene clave foránea
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla bibliotecas no tiene clave foránea
+  checked: true
+name: DER
