@@ -38,4 +38,4 @@ Dado el DER presentado
   }'>
 </div>
 
-> Escribí una consulta SQL que liste los autores más leidos de la localidad de "San Luis". Estos son los que tienen algún libro con más de  100 reservas.
+> Escribí una consulta SQL que liste los autores más leidos de la localidad de "Mendoza". Estos son los que tienen algún libro con más de  100 reservas.

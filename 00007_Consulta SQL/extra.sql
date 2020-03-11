@@ -8,7 +8,7 @@ CREATE TABLE libros (id_libro INTEGER PRIMARY KEY,
   FOREIGN KEY (id_biblioteca) REFERENCES bibliotecas(id_biblioteca));
 
 INSERT INTO bibliotecas VALUES
-(1, "San Luis"), 
+(1, "Mendoza"), 
 (2, "CABA"),
 (3, "Gral Las Heras");
 
