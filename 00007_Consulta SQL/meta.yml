@@ -6,6 +6,7 @@ editor: code
 type: problem
 extra_visible: false
 language: sqlite
+teacher_info: ''
 manual_evaluation: false
 choices: []
 name: Consulta SQL
